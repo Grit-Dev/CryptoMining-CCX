@@ -1,0 +1,74 @@
+The CCX.BAT file is configured to mine automatically! It will mine to my wallet address. 
+
+Please note: 
+
+This is short helpful documentation to get you up and running. The README file within
+the ZIPPED has alot of documentation to help you. 
+
+Like most mining software, your firewall, and antivirus will block it. You must config this too. 
+
+
+
+
+Important line of code to change to what you need it for (miner, algo, url:port, YOUR address, password/name: 
+
+(CHANGE THIS:)
+CryptoDredge -a cngpu  -o stratum+ssl://ccx.pool.gntl.co.uk:10012  -u ccx7K8tNYvCN36JfMdL9mLeMeQKfnVWPoZyGWbg8Boc1iLHRra52mi5QnHvBxTDuTm6Jw3m5TdwrqbAHLz8g1Cag4T6njoQQK3 -p MrRobot
+
+--------------------------------------------------------
+
+Example:
+
+ CryptoDredge -a <ALGO> -o stratum+tcp://<POOL> -u <WALLET_ADDRESS> -p <OPTIONS>
+ 
+ Please read the "README" file withing the zipped folder 
+ 
+ --------------------------------------------------------
+ 
+ If you want to decrease the mining intensity use:
+ 
+  -i 
+  
+  
+  --------------------------------------------------------
+  Example:  
+  
+  -i 3.5 (1-8 threshold)
+  
+  
+  --------------------------------------------------------
+  Code line example: 
+  
+  CryptoDredge -a cngpu -i 3.5 -o stratum+tcp://de.conceal.herominers.com:1115  -u ccx7aoNYpGb7sndJtEDWvCBQhPAy9mC8QW5KWuCx8J1FJrDcDrER1XYA9LGtggrR7ZC4KfQmQ2uRN47L9WypBbNLAeq2Q4Q9WN+7dd9172150153db448de30f0da176cca61d27f864d106c417b9fd4e65487c856 -p MrRobot
+
+  --------------------------------------------------------
+ 
+ 
+  --------------------------------------------------------
+   
+ SUPPORTED ALGORITHMS
+
+  Argon2d (4096/DYN/NIM)
+  Chukwa (Argon2-512)
+  Chukwa-v2
+  CryptoNightConceal
+  CryptoNightGPU
+  CryptoNightHaven
+  CryptoNightHeavy
+  CryptoNightTurtle
+  CryptoNightUPX
+  Ethash
+  FiroPoW
+  KawPow
+  
+  
+  
+  If you feel like donating to me: 
+  
+  
+  Conceal (CCX): 
+  ccx7K8tNYvCN36JfMdL9mLeMeQKfnVWPoZyGWbg8Boc1iLHRra52mi5QnHvBxTDuTm6Jw3m5TdwrqbAHLz8g1Cag4T6njoQQK3
+  
+  Monero (XML): 
+  876spcJbSyXdNMc5uBUcqL68uW7HazcyNHkkhGnBGof4KWCGAmvyyApJYnyhrtRmxRdtt52uZo7NCZSfDm8K1gmdFrjJ6jS
+  
