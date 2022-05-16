@@ -9,6 +9,19 @@ Like most mining software, your firewall, and antivirus will block it. You must 
 
 
 
+To mine Conceal.Network coin: You will need a wallet.
+
+Official Conceal website: https://conceal.network/
+
+I recommend a full node Local wallet.
+Install, and let your firewall and security exclude this. 
+
+Once installed, keep you passphrase safe (this will help you recover the account if you lose it).
+You will need the recieve address for your crypto mining. 
+
+
+
+--------------------------------------------------------
 
 Important line of code to change to what you need it for (miner, algo, url:port, YOUR address, password/name: 
 
